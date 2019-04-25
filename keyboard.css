@@ -1,3 +1,81 @@
 /* Define your CSS styles here */
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
+body{
+  background-color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.keyboard{
+  width:820px;
+  height: 210px;
+  background-color: pink;
+  margin: 0px auto;
+  border-radius: 9px;
+  padding: 40px;
+  color: violet;
+}
+
+.key{
+  width: 40px;
+  height:40px;
+  background: rgba(120, 120, 120);
+  text-align: left;
+  padding-left: 15px;
+  line-height: 40px;
+  border-radius:5px;
+	margin-left: 2px;
+  margin-bottom:3px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+.backspace {
+	width:60px;
+	font-weight: bold;
+   background: white;
+   color: violet;
+}
+
+.tab {
+	width: 58px;
+	line-height: 40px;
+	font-size:12px;
+	font-weight: bold;
+   background: white;
+   color: violet;
+
+}
+
+.letter{
+	flex: 1;
+}
+
+.enter{width:92px; line-height:40px; text-align: center; padding-left:0; font-weight: bold; background: white; color: violet;}
+
+.shift{width: 90px;	line-height: 40px; font-size:13px; font-weight: bold; background: white; color: violet;}
+
+.space{
+	width:100%;
+
+}
+
+.accept{background: white; color: violet; width: 90px; line-height: 40px; font-size:17px;}
+
+.cancel{background: white; color: violet; width: 90px; line-height: 40px; font-size:17px;}
+
+.key:hover{background: lightblue; color: black}
+
+.key:active{background-color:#000000;}
